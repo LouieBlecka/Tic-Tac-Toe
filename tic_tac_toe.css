@@ -1,0 +1,63 @@
+#A1 {
+position: relative;
+  top:-980px;
+  right:-25px;
+  width: 300px;
+  height: 300px;
+  }
+#A2 {
+position: relative;
+  top:-1280px;
+  right:-350px;
+  width: 300px;
+  height: 300px;
+  }
+#A3 {
+position: relative;
+  top:-1580px;
+  right:-680px;
+  width: 300px;
+  height: 300px;
+  }
+#B1 {
+position: relative;
+  top:-1555px;
+  right:-25px;
+  width: 300px;
+  height: 300px;
+  }
+#B2 {
+position: relative;
+  top:-1855px;
+  right:-350px;
+  width: 300px;
+  height: 300px;
+  }
+#B3 {
+position: relative;
+  top:-2155px;
+  right:-680px;
+  width: 300px;
+  height: 300px;
+  }
+#C1 {
+position: relative;
+  top:-2125px;
+  right:-25px;
+  width: 300px;
+  height: 300px;
+  }
+#C2 {
+position: relative;
+  top:-2425px;
+  right:-350px;
+  width: 300px;
+  height: 300px;
+  }
+#C3 {
+position: relative;
+  top:-2725px;
+  right:-680px;
+  width: 300px;
+  height: 300px;
+  }
