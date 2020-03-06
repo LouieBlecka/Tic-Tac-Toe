@@ -1,65 +1,80 @@
 #A1 {
-position: relative;
-  top:-980px;
-  right:-25px;
-  width: 300px;
-  height: 300px;
-  }
+    position: relative;
+    top: -980px;
+    right: -25px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
 #A2 {
-position: relative;
-  top:-1280px;
-  right:-350px;
-  width: 300px;
-  height: 300px;
-  }
+    position: relative;
+    top: -1280px;
+    right: -350px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
 #A3 {
-position: relative;
-  top:-1580px;
-  right:-680px;
-  width: 300px;
-  height: 300px;
-  }
+    position: relative;
+    top: -1580px;
+    right: -680px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
 #B1 {
-position: relative;
-  top:-1555px;
-  right:-25px;
-  width: 300px;
-  height: 300px;
-  }
+    position: relative;
+    top: -1555px;
+    right: -25px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
 #B2 {
-position: relative;
-  top:-1855px;
-  right:-350px;
-  width: 300px;
-  height: 300px;
-  }
+    position: relative;
+    top: -1855px;
+    right: -350px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
 #B3 {
-position: relative;
-  top:-2155px;
-  right:-680px;
-  width: 300px;
-  height: 300px;
-     background-color: red;
-  }
+    position: relative;
+    top: -2155px;
+    right: -680px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
 #C1 {
-position: relative;
-  top:-2125px;
-  right:-25px;
-  width: 300px;
-  height: 300px;
-     background-color: red;
-  }
+    position: relative;
+    top: -2125px;
+    right: -25px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
 #C2 {
-position: relative;
-  top:-2425px;
-  right:-350px;
-  width: 300px;
-  height: 300px;
-  }
+    position: relative;
+    top: -2425px;
+    right: -350px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
 #C3 {
-position: relative;
-  top:-2725px;
-  right:-680px;
-  width: 300px;
-  height: 300px;
-  }
+    position: relative;
+    top: -2725px;
+    right: -680px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
