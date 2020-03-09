@@ -1,104 +1,105 @@
-var A1 = document.body.getElementById("A1");
-var A2 = document.body.getElementById("A2");
-var A3 = document.body.getElementById("A3");
-var B1 = document.body.getElementById("B1");
-var B2 = document.body.getElementById("B2");
-var B3 = document.body.getElementById("B3");
-var C1 = document.body.getElementById("C1");
-var C2 = document.body.getElementById("C2");
-var C3 = document.body.getElementById("C3");
+var A1 = document.getElementById("A1");
+var A2 = document.getElementById("A2");
+var A3 = document.getElementById("A3");
+var B1 = document.getElementById("B1");
+var B2 = document.getElementById("B2");
+var B3 = document.getElementById("B3");
+var C1 = document.getElementById("C1");
+var C2 = document.getElementById("C2");
+var C3 = document.getElementById("C3");
 
 A1.addEventListener('click', (event) => {
-    makeX(event);
+    if (event.shiftKey == true) {
+        makeO(event);
+    } else {
+        makeX(event);
+    }
 });
 
 A2.addEventListener('click', (event) => {
-    makeX(event);
+    if (event.shiftKey == true) {
+        makeO(event);
+    } else {
+        makeX(event);
+    }
 });
 
 A3.addEventListener('click', (event) => {
-    makeX(event);
+    if (event.shiftKey == true) {
+        makeO(event);
+    } else {
+        makeX(event);
+    }
 });
 
 B1.addEventListener('click', (event) => {
-    makeX(event);
+    if (event.shiftKey == true) {
+        makeO(event);
+    } else {
+        makeX(event);
+    }
 });
 
 B2.addEventListener('click', (event) => {
-    makeX(event);
+    console.log("clicked B2")
+    if (event.shiftKey == true) {
+        makeO(event);
+    } else {
+        makeX(event);
+    }
 });
 
 B3.addEventListener('click', (event) => {
-    makeX(event);
+    if (event.shiftKey == true) {
+        makeO(event);
+    } else {
+        makeX(event);
+    }
 });
 
 C1.addEventListener('click', (event) => {
-    makeX(event);
+    if (event.shiftKey == true) {
+        makeO(event);
+    } else {
+        makeX(event);
+    }
 });
 
 C2.addEventListener('click', (event) => {
-    makeX(event);
+    if (event.shiftKey == true) {
+        makeO(event);
+    } else {
+        makeX(event);
+    }
 });
 
 C3.addEventListener('click', (event) => {
-    makeX(event);
+    if (event.shiftKey == true) {
+        makeO(event);
+    } else {
+        makeX(event);
+    }
 });
-
-A1.addEventListener('click', (event.shiftKey) => {
-    makeO(event);
-});
-
-A2.addEventListener('click', (event.shiftKey) => {
-    makeO(event);
-});
-
-A3.addEventListener('click', (event.shiftKey) => {
-    makeO(event);
-});
-
-B1.addEventListener('click', (event.shiftKey) => {
-    makeO(event);
-});
-
-B2.addEventListener('click', (event.shiftKey) => {
-    makeO(event);
-});
-
-B3.addEventListener('click', (event.shiftKey) => {
-    makeO(event);
-});
-
-C1.addEventListener('click', (event.shiftKey) => {
-    makeO(event);
-});
-
-C2.addEventListener('click', (event.shiftKey) => {
-    makeO(event);
-});
-
-C3.addEventListener('click', (event.shiftKey) => {
-    makeO(event);
-});
-
-
-
 
 function makeX(event) {
     let xBox = event.target;
     let color = xBox.style.backgroundColor;
+    console.log(color)
     if (color == "white" || color == "red") {
-        box.style.background = "red";
-    } else if (color = "blue")
-        box.style.background = "blue"
-}
+        xBox.style.background = "red";
+    } else if (color == "blue") {
+        xBox.style.background = "blue";
+    }
+
 }
 
 function makeO(event) {
     let oBox = event.target;
-    let color = xBox.style.backgroundColor;
-    if (color == "white" && color == "blue") {
-        box.style.background = "blue";
-    } else if (color = "red") {
-        box.style.background = "red"
+    let color = oBox.style.backgroundColor;
+    console.log(oBox.style)
+    if (color == "white" || color == "blue") {
+        oBox.style.background = "blue";
+    } else if (color == "red") {
+        oBox.style.background = "red";
     }
 }
